@@ -34,6 +34,9 @@
 // undefined === null
 // null == "\n0\n"
 // null === +"\n0\n"
+// alert(7 > 5)
+// alert("стол" > "стул")
+// alert("4" > "52")
 
 
 // if ("0") {
@@ -66,13 +69,78 @@
 //     alert( 0 );
 //   }
 
-let result;
-let a = +prompt('введите число')
-let b = +prompt('введите число')
-if (a + b < 4)
-{
-  result = 'Мало';
-} else {
-  result = 'Много';
-}
-alert(result)
+// let result;
+// let a = +prompt('введите число')
+// let b = +prompt('введите число')
+// if (a + b < 4)
+// {
+//   result = 'Мало';
+// } else {
+//   result = 'Много';
+// }
+// alert(result)
+
+// let message = prompt('введите текст');
+// if (login == 'Сотрудник') 
+// {
+//   message = 'Привет';
+// } 
+// else if (login == 'Директор') 
+// {
+//   message = 'Здравствуйте';
+// } 
+// else if (login == '') 
+// {
+//   message = 'Нет логина';
+// } 
+// else 
+// {
+//   message = '';
+// }
+
+// alert( null || 4 || undefined );
+
+// alert( alert(1) || 2 || alert(3) );
+
+// alert( 1 && null && 2 );
+
+// alert( alert(1) && alert(2) );
+
+// alert( null || 2 && 3 || 4 );
+
+// let value = NaN;
+
+// value &&= 10;
+// value ||= 20;
+// value &&= 30;
+// value ||= 40;
+
+// alert(value);
+
+// if (age >= 14 && age <= 90) 
+
+// if (age < 14 || age > 90)
+
+// if (-1 || 0) alert( 'first' );
+// if (-1 && 0) alert( 'second' );
+// if (null || -1 && 1) alert( 'third' );
+
+// let userName = prompt("Кто там?", '');
+
+// if (userName === 'Админ') {
+
+//   let pass = prompt('Пароль?', '');
+
+//   if (pass === 'Я главный') {
+//     alert( 'Здравствуйте!' );
+//   } else if (pass === '' || pass === null) {
+//     alert( 'Отменено' );
+//   } else {
+//     alert( 'Неверный пароль' );
+//   }
+
+// } else if (userName === '' || userName === null) {
+//   alert( 'Отменено' );
+// } else {
+//   alert( "Я вас не знаю" );
+// }
