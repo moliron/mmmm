@@ -125,7 +125,7 @@
 // if (-1 && 0) alert( 'second' );
 // if (null || -1 && 1) alert( 'third' );
 
-// let userName = prompt("Кто там?", '');
+// let userName = prompt("Кто там?", ''); 
 
 // if (userName === 'Админ') {
 
@@ -138,9 +138,71 @@
 //   } else {
 //     alert( 'Неверный пароль' );
 //   }
-
 // } else if (userName === '' || userName === null) {
 //   alert( 'Отменено' );
 // } else {
 //   alert( "Я вас не знаю" );
+// }
+
+// function add(a, d){
+//     return (a - d);
+// }
+// function add(a, d){
+//     return (a + d);
+// }
+// console.log(add(2, 3));
+
+// let x = 2;
+// let y = 3;
+// console.log('x + y =', x + y)
+// console.log('x - y =', x - y)
+// console.log('x ** 0 =', x ** 0)
+// console.log('y ** 0 =', x ** 0)
+
+// let number = prompt("Введите число: ");
+
+// if (number > 0) {
+//   alert("Число положительное.");
+// } else if (number < 0) {
+//   alert("Число отрицательное.");
+// } else {
+//   alert("Число равно нулю.");
+// }
+
+// let number = +prompt()
+// let number2 = +prompt()
+// let number3 = +prompt()
+// let number4 = +prompt()
+// alert(number + number2 + number3 + number4 / 4)
+
+// let name = prompt('введите имя')
+// let age = prompt('введите возраст')
+// console.log(name,age)
+
+// let number = prompt('введите число')
+// if (number % 2 == 0) {
+//     alert ("Число четное")
+// }
+// else {
+//     alert("Число нечетное")
+// }
+
+// function Number(number) {
+//     if (number < 0) {
+//         console.log("Число отрицательное.");
+//     } else {
+//         console.log("Число не отрицательное.");
+//     }
+// }
+// Number(-5);  
+// Number(3);   
+// Number(0);   
+
+// let number = prompt("введите число")
+// let number1 = prompt("введите число")
+// if (number % number1 == 0) {
+//     alert('остатка нет')
+// }
+// else {
+//     alert('число с остатком')
 // }
